@@ -1,0 +1,157 @@
+{
+  "mapwidth":"4800",
+  "mapheight":"2649",
+  "minimap":"false",
+  "sidebar":"false",
+  "categories": [
+    {
+      "id": "marinas",
+      "title": "Marinas",
+      "color": "rgba(255, 255, 255, .8)",
+      "show": "false"
+    },
+    {
+      "id": "resort",
+      "title": "Melrose Resort",
+      "color": "rgba(255, 255, 255, .8)",
+      "show": "false"
+    },
+    {
+      "id": "future-development",
+      "title": "Future Developments",
+      "color": "rgba(255, 255, 255, .8)",
+      "show": "false"
+    }
+  ],
+  "levels":[
+    {
+      "id":"daufuskie",
+      "title":"Daufuskie Island",
+      "map":"maps/resort-map.svg",
+      "minimap":"",
+      "locations":[
+        {
+          "id":"palmetto-bay-marina",
+          "title":"Palmetto Bay Marina",
+          "description":"",
+          "category": "marinas",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.9032",
+          "y":"0.0500"
+        },
+        {
+          "id":"melrose-landing",
+          "title":"Melrose Landing",
+          "description":"",
+          "category": "marinas",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.2947",
+          "y":"0.3438"
+        },
+        {
+          "id":"the-inn",
+          "title":"The Inn",
+          "description":"",
+          "category": "resort",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.4223",
+          "y":"0.5907"
+        },
+        {
+          "id":"tennis-villas",
+          "title":"Tennis Villas",
+          "description":"",
+          "category": "resort",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.4087",
+          "y":"0.5777"
+        },
+        {
+          "id": "beach-cottages",
+          "title": "Beach Cottages",
+          "description": "",
+          "category": "resort",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.4305",
+          "y":"0.5630"
+        },
+        {
+          "id":"residence-club",
+          "title":"Residence Club",
+          "description":"",
+          "category": "resort",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.4598",
+          "y":"0.5290"
+        },
+        {
+          "id":"beach-villas",
+          "title":"Beach Villas",
+          "description":"",
+          "category": "resort",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.4819",
+          "y":"0.4990"
+        },
+        {
+          "id":"enclave",
+          "title":"The Enclave",
+          "description":"Picturesque gated community featuring 58, 1 acre lots.",
+          "category": "future-development",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.3185",
+          "y":"0.5675"
+        },
+        {
+          "id":"parcel-development-1",
+          "title":"Parcel Development",
+          "description":"",
+          "category": "future-development",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.3400",
+          "y":"0.4910"
+        },
+        {
+          "id":"parcel-development-2",
+          "title":"Parcel Development",
+          "description":"",
+          "category": "future-development",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.3317",
+          "y":"0.5100"
+        },
+        {
+          "id":"parcel-development-3",
+          "title":"Parcel Development",
+          "description":"",
+          "category": "future-development",
+          "link": "",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.3613",
+          "y":"0.5535"
+        }
+      ]
+    }
+  ]
+}
