@@ -27,7 +27,7 @@
     {
       "id":"daufuskie",
       "title":"Daufuskie Island",
-      "map":"maps/resort-map.svg",
+      "map":"http://calebmsanchez.com/melrose/maps/resort-map.svg",
       "minimap":"",
       "locations":[
         {
