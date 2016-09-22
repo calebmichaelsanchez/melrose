@@ -15,7 +15,7 @@
     {
       "id":"melrose",
       "title":"Melrose Resort",
-      "map":"maps/melrose-resort.svg",
+      "map":"//melrose.sanchezstudio.co/maps/melrose-resort.svg",
       "minimap":"",
       "locations":[
         {

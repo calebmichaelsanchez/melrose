@@ -7,14 +7,14 @@
     {
       "id":"daufuskie",
       "title":"Daufuskie Island",
-      "map":"maps/daufuskie-island-hover.svg",
+      "map":"//melrose.sanchezstudio.co/maps/daufuskie-island-hover.svg",
       "minimap":"",
       "locations":[
         {
           "id":"melrose-resort",
           "title":"Melrose Resort",
           "description":"",
-          "link": "/link",
+          "link": "#",
           "pin":"hidden",
           "fill": "",
           "x":"0.4098",
