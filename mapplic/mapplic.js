@@ -654,7 +654,7 @@
 				this.el = $('<div></div>').addClass('mapplic-zoom-buttons').appendTo(self.container);
 
 				// Zoom in button
-				this.zoomin = $('<a></ha>').attr('href', '#').addClass('mapplic-zoomin-button').appendTo(this.el);
+				this.zoomin = $('<button></button>').attr('href', '#').addClass('mapplic-zoom-in').appendTo(this.el);
 				this.zoomin.on('click touchstart', function(e) {
 					e.preventDefault();
 
@@ -668,7 +668,7 @@
 				});
 
 				// Zoom out button
-				this.zoomout = $('<a></ha>').attr('href', '#').addClass('mapplic-zoomout-button').appendTo(this.el);
+				this.zoomout = $('<buttom></button>').attr('href', '#').addClass('mapplic-zoom-out').appendTo(this.el);
 				this.zoomout.on('click touchstart', function(e) {
 					e.preventDefault();
 
@@ -680,6 +680,16 @@
 
 					zoomTo(self.x, self.y, self.scale, 400, 'easeInOutCubic');
 				});
+
+				//Show Sidebar
+				$('<button>Show Sidebar</button>').addClass('mapplic-show-sidebar').click(function() {
+					if($(this).html() == 'Show Sidebar')
+						$(this).html('Hide Sidebar');
+					else
+						$(this).html('Show Sidebar');
+					$('.mapplic-sidebar').slideToggle('fast');
+					$(this).toggleClass('active');
+				}).appendTo(self.container);
 			}
 
 			this.update = function(scale) {
