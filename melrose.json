@@ -5,20 +5,8 @@
   "sidebar":"false",
   "categories": [
     {
-      "id": "marinas",
-      "title": "Marinas",
-      "color": "rgba(255, 255, 255, .8)",
-      "show": "false"
-    },
-    {
       "id": "resort",
       "title": "Melrose Resort",
-      "color": "rgba(255, 255, 255, .8)",
-      "show": "false"
-    },
-    {
-      "id": "future-development",
-      "title": "Future Developments",
       "color": "rgba(255, 255, 255, .8)",
       "show": "false"
     }
@@ -27,7 +15,7 @@
     {
       "id":"melrose",
       "title":"Melrose Resort",
-      "map":"http://melrose.sanchezstudio.co/maps/melrose-resort.svg",
+      "map":"maps/melrose-resort.svg",
       "minimap":"",
       "locations":[
         {
@@ -38,8 +26,8 @@
           "link": "",
           "pin":"hidden",
           "fill": "",
-          "x":"0.4223",
-          "y":"0.5907"
+          "x":"0.4905",
+          "y":"0.7395"
         },
         {
           "id":"tennis-villas",
@@ -49,8 +37,8 @@
           "link": "",
           "pin":"hidden",
           "fill": "",
-          "x":"0.4087",
-          "y":"0.5777"
+          "x":"0.4311",
+          "y":"0.6365"
         },
         {
           "id": "beach-cottages",
@@ -60,8 +48,8 @@
           "link": "",
           "pin":"hidden",
           "fill": "",
-          "x":"0.4305",
-          "y":"0.5630"
+          "x":"0.5950",
+          "y":"0.6483"
         },
         {
           "id":"residence-club",
@@ -71,8 +59,8 @@
           "link": "",
           "pin":"hidden",
           "fill": "",
-          "x":"0.4598",
-          "y":"0.5290"
+          "x":"0.7496",
+          "y":"0.5300"
         },
         {
           "id":"beach-villas",
@@ -82,19 +70,19 @@
           "link": "",
           "pin":"hidden",
           "fill": "",
-          "x":"0.4819",
-          "y":"0.4990"
+          "x":"0.8505",
+          "y":"0.5319"
         },
         {
           "id":"enclave",
           "title":"The Enclave",
           "description":"Picturesque gated community featuring 58, 1 acre lots.",
-          "category": "future-development",
+          "category": "resort",
           "link": "",
-          "pin":"hidden",
+          "pin":"visible",
           "fill": "",
-          "x":"0.3185",
-          "y":"0.5675"
+          "x":"0.1512",
+          "y":"0.3629"
         }
       ]
     }

@@ -3,7 +3,7 @@ svg {
   height: 100%;
 }
 
-svg a {
+svg a, svg g g {
   cursor: pointer;
 }
 
@@ -870,15 +870,16 @@ svg a {
   pointer-events: none;
 }
 
-.interactive-map g:not(.background-image):not(.explore) {
+.mapplic-clickable {
   cursor: pointer;
-  -webkit-transition: 0.2s cubic-bezier(0.77, 0, 0.175, 1);
-          transition: 0.2s cubic-bezier(0.77, 0, 0.175, 1);
+  opacity: 0;
+  -webkit-transition: 0.4s ease;
+          transition: 0.4s ease;
 }
 
-.interactive-map g:not(.background-image):not(.explore):hover,
-.interactive-map g:not(.background-image):not(.explore).active {
-  opacity: 0.4;
+.mapplic-clickable:hover,
+.mapplic-active {
+  opacity: 0.6;
 }
 @media screen and (max-width:1600px) {
   .mapplic-element {
