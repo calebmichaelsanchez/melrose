@@ -1,6 +1,6 @@
 {
-  "mapwidth":"4800",
-  "mapheight":"2649",
+  "mapwidth":"4450",
+  "mapheight":"2970",
   "minimap":"false",
   "sidebar":"false",
   "categories": [
@@ -25,33 +25,11 @@
   ],
   "levels":[
     {
-      "id":"daufuskie",
-      "title":"Daufuskie Island",
-      "map":"http://melrose.sanchezstudio.co/maps/resort-map.svg",
+      "id":"melrose",
+      "title":"Melrose Resort",
+      "map":"http://melrose.sanchezstudio.co/maps/melrose-resort.svg",
       "minimap":"",
       "locations":[
-        {
-          "id":"palmetto-bay-marina",
-          "title":"Palmetto Bay Marina",
-          "description":"",
-          "category": "marinas",
-          "link": "",
-          "pin":"hidden",
-          "fill": "",
-          "x":"0.9032",
-          "y":"0.0500"
-        },
-        {
-          "id":"melrose-landing",
-          "title":"Melrose Landing",
-          "description":"",
-          "category": "marinas",
-          "link": "",
-          "pin":"hidden",
-          "fill": "",
-          "x":"0.2947",
-          "y":"0.3438"
-        },
         {
           "id":"the-inn",
           "title":"The Inn",
@@ -117,39 +95,6 @@
           "fill": "",
           "x":"0.3185",
           "y":"0.5675"
-        },
-        {
-          "id":"parcel-development-1",
-          "title":"Parcel Development",
-          "description":"",
-          "category": "future-development",
-          "link": "",
-          "pin":"hidden",
-          "fill": "",
-          "x":"0.3400",
-          "y":"0.4910"
-        },
-        {
-          "id":"parcel-development-2",
-          "title":"Parcel Development",
-          "description":"",
-          "category": "future-development",
-          "link": "",
-          "pin":"hidden",
-          "fill": "",
-          "x":"0.3317",
-          "y":"0.5100"
-        },
-        {
-          "id":"parcel-development-3",
-          "title":"Parcel Development",
-          "description":"",
-          "category": "future-development",
-          "link": "",
-          "pin":"hidden",
-          "fill": "",
-          "x":"0.3613",
-          "y":"0.5535"
         }
       ]
     }

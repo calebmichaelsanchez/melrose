@@ -765,7 +765,7 @@ svg a {
 
 .mapplic-tooltip-close {
   background-color: #eee;
-  background-image: url(images/cross.png);
+  background-image: url(//melrose.sanchezstudio.co/mapplic/images/cross.png);
   background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -813,7 +813,7 @@ svg a {
   margin:-105px 0 0 -400px!important;
 }
 .mapplic-tooltip-triangle {
-  background-image: url(images/tooltip-triangle.png);
+  background-image: url(//melrose.sanchezstudio.co/mapplic/images/tooltip-triangle.png);
   width: 14px;
   height: 6px;
   position: absolute;
@@ -823,7 +823,7 @@ svg a {
   margin-left: -7px;
 }
 .righttop .mapplic-tooltip-triangle, .rightmiddle .mapplic-tooltip-triangle, .rightbottom .mapplic-tooltip-triangle {
-  background-image: url(images/tooltip-triangle.png);
+  background-image: url(//melrose.sanchezstudio.co/mapplic/images/tooltip-triangle.png);
   width: 14px;
   height: 6px;
   position: absolute;
@@ -834,7 +834,7 @@ svg a {
   -webkit-transform: rotate(-90deg);
 }
 .lefttop .mapplic-tooltip-triangle, .leftmiddle .mapplic-tooltip-triangle, .leftbottom .mapplic-tooltip-triangle {
-  background-image: url(images/tooltip-triangle.png);
+  background-image: url(//melrose.sanchezstudio.co/mapplic/images/tooltip-triangle.png);
   width: 14px;
   height: 6px;
   position: absolute;
@@ -845,7 +845,7 @@ svg a {
   -webkit-transform: rotate(90deg);
 }
 .topleft .mapplic-tooltip-triangle, .topmiddle .mapplic-tooltip-triangle, .topright .mapplic-tooltip-triangle {
-  background-image: url(images/tooltip-triangle.png);
+  background-image: url(//melrose.sanchezstudio.co/mapplic/images/tooltip-triangle.png);
   width: 14px;
   height: 6px;
   position: absolute;
