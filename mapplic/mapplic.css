@@ -718,7 +718,7 @@ svg a, svg g g {
   margin: 4px auto 8px;
   width: 80%;
 }
-.mapplic-tooltip-link {
+.mapplic-popup-link {
   font:13px/18px 'Raleway', Helvetica, sans-serif;
     font-weight: 700;
   text-transform:uppercase;
@@ -732,7 +732,7 @@ svg a, svg g g {
   width:40%;
 }
 
-.mapplic-tooltip-link:hover {
+.mapplic-popup-link:hover {
   background-color: #aaa;
 }
 
@@ -870,15 +870,26 @@ svg a, svg g g {
   pointer-events: none;
 }
 
-.mapplic-clickable {
+g.melrose-hover-green {
+  opacity: 0;
+  -webkit-transition: 0.4s ease;
+          transition: 0.4s ease;
+}
+g#landmarks-daufuskie .mapplic-clickable:hover g.melrose-hover-green {
+  opacity: 1;
+}
+
+
+
+g:not(#landmarks-daufuskie) .mapplic-clickable {
   cursor: pointer;
   opacity: 0;
   -webkit-transition: 0.4s ease;
           transition: 0.4s ease;
 }
 
-.mapplic-clickable:hover,
-.mapplic-active {
+g:not(#landmarks-daufuskie) .mapplic-clickable:hover,
+g:not(#landmarks-daufuskie) .mapplic-active {
   opacity: 0.6;
 }
 @media screen and (max-width:1600px) {

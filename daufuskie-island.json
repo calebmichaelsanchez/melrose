@@ -7,74 +7,38 @@
     {
       "id":"daufuskie",
       "title":"Daufuskie Island",
-      "map":"maps/daufuskie-island.svg",
+      "map":"maps/daufuskie-island-hover.svg",
       "minimap":"",
       "locations":[
         {
           "id":"melrose-resort",
-          "title":"The Inn",
+          "title":"Melrose Resort",
           "description":"",
-          "category": "resort",
+          "link": "/link",
+          "pin":"hidden",
+          "fill": "",
+          "x":"0.4098",
+          "y":"0.6456"
+        },
+        {
+          "id":"daufuskie-marina",
+          "title":"Daufuskie Marina",
+          "description":"",
           "link": "",
           "pin":"hidden",
           "fill": "",
-          "x":"0.4905",
-          "y":"0.7395"
+          "x":"0.4821",
+          "y":"0.2294"
         },
         {
-          "id":"tennis-villas",
-          "title":"Tennis Villas",
-          "description":"",
-          "category": "resort",
-          "link": "",
-          "pin":"hidden",
-          "fill": "",
-          "x":"0.4311",
-          "y":"0.6365"
-        },
-        {
-          "id": "beach-cottages",
-          "title": "Beach Cottages",
+          "id": "palmetto-bay-marina",
+          "title": "Palmetto Bay Marina",
           "description": "",
-          "category": "resort",
           "link": "",
           "pin":"hidden",
           "fill": "",
-          "x":"0.5950",
-          "y":"0.6483"
-        },
-        {
-          "id":"residence-club",
-          "title":"Residence Club",
-          "description":"",
-          "category": "resort",
-          "link": "",
-          "pin":"hidden",
-          "fill": "",
-          "x":"0.7496",
-          "y":"0.5300"
-        },
-        {
-          "id":"beach-villas",
-          "title":"Beach Villas",
-          "description":"",
-          "category": "resort",
-          "link": "",
-          "pin":"hidden",
-          "fill": "",
-          "x":"0.8505",
-          "y":"0.5319"
-        },
-        {
-          "id":"enclave",
-          "title":"The Enclave",
-          "description":"Picturesque gated community featuring 58, 1 acre lots.",
-          "category": "resort",
-          "link": "",
-          "pin":"visible",
-          "fill": "",
-          "x":"0.1512",
-          "y":"0.3629"
+          "x":"0.8422",
+          "y":"0.2176"
         }
       ]
     }

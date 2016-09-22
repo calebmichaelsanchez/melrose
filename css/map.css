@@ -24,7 +24,7 @@
          -o-transition: all 100ms ease-out;
             transition: all 100ms ease-out;
 }
-.mapplic-tooltip-link:hover {
+.mapplic-popup-link:hover {
     background: #565656;
     color: #fff;
 }
