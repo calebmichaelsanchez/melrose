@@ -100,7 +100,7 @@
 				this.close.on('click touchend', function(e) {
 					e.preventDefault();
 					self.hideLocation();
-					if (!self.o.zoom) self.moveTo(0.5, 0.5, 1, 600, 'easeInOutCubic');
+					if (!self.o.zoom) self.moveTo(0.5, 0.5, 1, 1600, 'easeInOutCubic');
 				});
 				if (self.o.tooltip.thumb) this.thumbnail = $('<img>').addClass('mapplic-tooltip-thumbnail').hide().appendTo(this.el);
 				this.content = $('<div></div>').addClass('mapplic-tooltip-content').appendTo(this.el);
@@ -200,7 +200,7 @@
 					zoom = location.zoom ? parseFloat(location.zoom) : self.o.maxscale;
 
 				ry = ((self.container.height() - this.drop) / 2 + this.drop) / self.container.height();
-				self.moveTo(location.x, location.y, zoom, 600, 'easeInOutCubic', ry);
+				self.moveTo(location.x, location.y, zoom, 1600, 'easeInOutCubic', ry);
 			}
 
 			this.hide = function() {
@@ -264,7 +264,7 @@
 
 				// Zoom
 				var zoom = location.zoom ? location.zoom : self.o.maxscale;
-				self.moveTo(location.x, location.y, zoom, 600, 'easeInOutCubic');
+				self.moveTo(location.x, location.y, zoom, 1600, 'easeInOutCubic');
 
 				// Hide tooltip
 				if (self.tooltip) self.tooltip.hide();
@@ -1311,7 +1311,7 @@
 								return false;
 							case 'none':
 								var zoom = location.zoom ? location.zoom : self.o.maxscale;
-								self.moveTo(location.x, location.y, zoom, 600, 'easeInOutCubic');
+								self.moveTo(location.x, location.y, zoom, 1600, 'easeInOutCubic');
 								break;
 							case 'lightbox':
 								self.switchLevel(level.id);
