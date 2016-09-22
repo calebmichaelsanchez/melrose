@@ -570,7 +570,7 @@
 					if ($(window).width() < 668) {
 						$('html, body').animate({
 							scrollTop: self.container.offset().top
-						}, 400);
+						}, 800);
 					}
 				}).appendTo(item);
 
@@ -641,7 +641,7 @@
 				this.el.on('click touchstart', function(e) {
 					e.preventDefault();
 					self.hideLocation();
-					self.moveTo(0.5, 0.5, 1, 400, 'easeInOutCubic');
+					self.moveTo(0.5, 0.5, 1, 800, 'easeInOutCubic');
 				});
 			}
 		}
@@ -664,7 +664,7 @@
 					self.x = normalizeX(self.x - (self.container.width() / 2 - self.x) * (self.scale / scale - 1));
 					self.y = normalizeY(self.y - (self.container.height() / 2 - self.y) * (self.scale / scale - 1));
 
-					zoomTo(self.x, self.y, self.scale, 400, 'easeInOutCubic');
+					zoomTo(self.x, self.y, self.scale, 800, 'easeInOutCubic');
 				});
 
 				// Zoom out button
@@ -678,7 +678,7 @@
 					self.x = normalizeX(self.x - (self.container.width() / 2 - self.x) * (self.scale / scale - 1));
 					self.y = normalizeY(self.y - (self.container.height() / 2 - self.y) * (self.scale / scale - 1));
 
-					zoomTo(self.x, self.y, self.scale, 400, 'easeInOutCubic');
+					zoomTo(self.x, self.y, self.scale, 800, 'easeInOutCubic');
 				});
 
 				//Show Sidebar
@@ -960,7 +960,7 @@
 				self.x = normalizeX(self.x);
 				self.y = normalizeY(self.y);
 
-				zoomTo(self.x, self.y, self.scale, 100);
+				zoomTo(self.x, self.y, self.scale, 800);
 
 			}).resize();
 
@@ -1040,7 +1040,7 @@
 				self.x = normalizeX(self.x - (e.pageX - self.container.offset().left - self.x) * (self.scale/scale - 1));
 				self.y = normalizeY(self.y - (e.pageY - self.container.offset().top - self.y) * (self.scale/scale - 1));
 
-				zoomTo(self.x, self.y, self.scale, 400, 'easeInOutCubic');
+				zoomTo(self.x, self.y, self.scale, 800, 'easeInOutCubic');
 			});
 
 			// Mousewheel
@@ -1057,7 +1057,7 @@
 					self.x = normalizeX(self.x - (e.pageX - self.container.offset().left - self.x) * (self.scale/scale - 1));
 					self.y = normalizeY(self.y - (e.pageY - self.container.offset().top - self.y) * (self.scale/scale - 1));
 
-					zoomTo(self.x, self.y, self.scale, 200, 'easeOutCubic');
+					zoomTo(self.x, self.y, self.scale, 800, 'easeOutCubic');
 				});
 			}
 
@@ -1263,7 +1263,7 @@
 		}
 
 		self.moveTo = function(x, y, s, duration, easing, ry) {
-			duration = typeof duration !== 'undefined' ? duration : 400;
+			duration = typeof duration !== 'undefined' ? duration : 800;
 			ry = typeof ry !== 'undefined' ? ry : 0.5;
 			s = typeof s !== 'undefined' ? s : self.scale/self.fitscale;
 
