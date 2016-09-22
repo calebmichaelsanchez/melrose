@@ -14,7 +14,7 @@
           "id":"melrose-resort",
           "title":"Melrose Resort",
           "description":"",
-          "link": "#",
+          "link": "/melrose-resort",
           "pin":"hidden",
           "fill": "",
           "x":"0.4098",
@@ -22,7 +22,7 @@
         },
         {
           "id":"daufuskie-marina",
-          "title":"Daufuskie Marina",
+          "title":"Coming Soon",
           "description":"",
           "link": "",
           "pin":"hidden",
@@ -32,7 +32,7 @@
         },
         {
           "id": "palmetto-bay-marina",
-          "title": "Palmetto Bay Marina",
+          "title": "Coming Soon",
           "description": "",
           "link": "",
           "pin":"hidden",
