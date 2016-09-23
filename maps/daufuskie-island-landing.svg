@@ -17,7 +17,7 @@
 		</image>
 	</g>
 </g>
-<g class="landmarks-daufuskie">
+<g id="landmarks-daufuskie">
 	<g id="atlantic-ocean">
 		<path fill="#FFFFFF" d="M614.79,494.27h0.44l7.75,16.21h-0.55l-2.3-4.83h-10.25l-2.3,4.83h-0.53L614.79,494.27z M619.9,505.19
 			l-4.9-10.26l-4.9,10.26H619.9z"/>
