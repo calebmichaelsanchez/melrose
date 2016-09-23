@@ -25,7 +25,7 @@ svg a {
   overflow: hidden;
   position: relative;
   margin: 30px;
-  height:703px !important;
+  /*height:703px !important;*/
 }
 
 /* Fullscreen */
@@ -898,7 +898,7 @@ g:not(#landmarks-daufuskie) .mapplic-active {
 }
 @media screen and (max-width:1600px) {
   .mapplic-element {
-    height:703px !important;
+    /*height:703px !important;*/
   }
 }
 /* Responsive layout */
@@ -933,7 +933,7 @@ g:not(#landmarks-daufuskie) .mapplic-active {
   }
   .mapplic-element {
     margin:12px;
-    height: 703px !important;
+    height: 680px !important;
   }
   .mapplic-container {
     height:450px!important;
