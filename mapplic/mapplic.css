@@ -25,7 +25,7 @@ svg a {
   overflow: hidden;
   position: relative;
   margin: 30px;
-  height:588px !important;
+  height:703px !important;
 }
 
 /* Fullscreen */
@@ -238,7 +238,7 @@ svg a {
   height: 55px;
   position: absolute;
   top: 15px;
-  left: 243px;
+  left: 93px;
   color: #fff;
   cursor:pointer;
   text-transform: uppercase;
@@ -277,24 +277,15 @@ svg a {
   content:"reset";
 }
 .mapplic-show-sidebar:after {
-  content: "^";
-  font-family: 'Raleway', Helvetica, sans-serif;
-  color: #565656;
-  font-weight: lighter;
-  font-size:22px;
-  line-height: 62px;
-  transition:all .3s ease-in-out;
-  -webkit-transition:all .3s ease-in-out;
-  -moz-transition:all .3s ease-in-out;
-  -ms-transition:all .3s ease-in-out;
+  content: "menu";
 }
-.mapplic-show-sidebar.active:after {
+/*.mapplic-show-sidebar.active:after {
   -webkit-transform:rotate(180deg);
   -moz-transform:rotate(180deg);
   -ms-transform:rotate(180deg);
   transform:rotate(180deg);
   left:-1px;
-}
+}*/
 .mapplic-zoom-in:hover,
 .mapplic-zoom-out:hover,
 .mapplic-clear-button:hover,
@@ -870,12 +861,23 @@ svg a {
   pointer-events: none;
 }
 
-g.melrose-hover-green {
+.mapplic-clickable {
+  cursor: pointer;
+}
+g#landmarks-daufuskie .mapplic-clickable path,
+g#landmarks-daufuskie .mapplic-clickable polygon,
+g#landmarks-daufuskie .mapplic-clickable rect {
   -webkit-transition: 0.4s ease;
           transition: 0.4s ease;
 }
-g#landmarks-daufuskie .mapplic-clickable:hover g.melrose-hover-green {
-
+g#landmarks-daufuskie .mapplic-clickable:hover path,
+g#landmarks-daufuskie .mapplic-clickable:hover polygon,
+g#landmarks-daufuskie .mapplic-clickable:hover rect,
+g#landmarks-daufuskie .mapplic-active path,
+g#landmarks-daufuskie .mapplic-active polygon,
+g#landmarks-daufuskie .mapplic-active rect {
+  fill: green;
+  stroke: white;
 }
 
 
@@ -893,7 +895,7 @@ g:not(#landmarks-daufuskie) .mapplic-active {
 }
 @media screen and (max-width:1600px) {
   .mapplic-element {
-    height:588px !important;
+    height:703px !important;
   }
 }
 /* Responsive layout */
@@ -928,7 +930,7 @@ g:not(#landmarks-daufuskie) .mapplic-active {
   }
   .mapplic-element {
     margin:12px;
-    height: 588px !important;
+    height: 703px !important;
   }
   .mapplic-container {
     height:450px!important;

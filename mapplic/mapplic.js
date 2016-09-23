@@ -643,6 +643,16 @@
 					self.hideLocation();
 					self.moveTo(0.5, 0.5, 1, 1600, 'easeInOutCubic');
 				});
+
+				//Show Sidebar
+				$('<button>Show Sidebar</button>').addClass('mapplic-show-sidebar').click(function() {
+					if($(this).html() == 'Show Sidebar')
+						$(this).html('Hide Sidebar');
+					else
+						$(this).html('Show Sidebar');
+					$('.mapplic-sidebar').slideToggle('fast');
+					$(this).toggleClass('active');
+				}).appendTo(self.container);
 			}
 		}
 
@@ -680,16 +690,6 @@
 
 					zoomTo(self.x, self.y, self.scale, 1600, 'easeInOutCubic');
 				});
-
-				//Show Sidebar
-				$('<button>Show Sidebar</button>').addClass('mapplic-show-sidebar').click(function() {
-					if($(this).html() == 'Show Sidebar')
-						$(this).html('Hide Sidebar');
-					else
-						$(this).html('Show Sidebar');
-					$('.mapplic-sidebar').slideToggle('fast');
-					$(this).toggleClass('active');
-				}).appendTo(self.container);
 			}
 
 			this.update = function(scale) {
