@@ -63,8 +63,8 @@
           "y":"0.5300"
         },
         {
-          "id":"beach-villas",
-          "title":"Beach Villas",
+          "id":"beach-club",
+          "title":"Beach Club",
           "description":"",
           "category": "resort",
           "link": "",
@@ -74,7 +74,7 @@
           "y":"0.5319"
         },
         {
-          "id":"enclave",
+          "id":"the-enclave",
           "title":"The Enclave",
           "description":"Picturesque gated community featuring 58, 1 acre lots.",
           "category": "resort",
@@ -83,6 +83,39 @@
           "fill": "",
           "x":"0.1512",
           "y":"0.3629"
+        },
+        {
+          "id":"future-development-residential",
+          "title":"Future Development Residential",
+          "description":"",
+          "category": "resort",
+          "link": "",
+          "pin":"visible",
+          "fill": "",
+          "x":"0.3488",
+          "y":"0.1475"
+        },
+        {
+          "id":"future-development-commercial",
+          "title":"Future Development Commercial",
+          "description":"",
+          "category": "resort",
+          "link": "",
+          "pin":"visible",
+          "fill": "",
+          "x":"0.3355",
+          "y":"0.1025"
+        },
+        {
+          "id":"future-development-open-space",
+          "title":"Future Development Open Space",
+          "description":"",
+          "category": "resort",
+          "link": "",
+          "pin":"visible",
+          "fill": "",
+          "x":"0.3563",
+          "y":"0.4250"
         }
       ]
     }
