@@ -7,13 +7,13 @@
     {
       "id":"daufuskie",
       "title":"Daufuskie Island",
-      "map":"//melrose.sanchezstudio.co/maps/daufuskie-island-landing.svg",
+      "map":"maps/daufuskie-island-landing-2.svg",
       "minimap":"",
       "locations":[
         {
           "id":"melrose-resort",
           "title":"Melrose Resort",
-          "description":"",
+          "description":"Set on the picturesque Daufuskie Island, this 680 acre-property features an eighteen-hole Jack Nicklaus Signature golf course, beach-club with three pools, wellness studio, equestrian centre, and oceanfront restaurant and bar.",
           "link": "/melrose-resort",
           "pin":"hidden",
           "fill": "",
@@ -22,8 +22,8 @@
         },
         {
           "id":"daufuskie-marina",
-          "title":"Coming Soon",
-          "description":"",
+          "title":"Daufuskie Marina",
+          "description":"The Daufuskie Island Landing is the main port of arrival for all guest, members and islanders It includes commercial dock facilities on the Intracoastal Waterway with a 2,600 square foot welcome center, 60 wet slips and ample land for expansion.",
           "link": "",
           "pin":"hidden",
           "fill": "",
@@ -32,8 +32,8 @@
         },
         {
           "id": "palmetto-bay-marina",
-          "title": "Coming Soon",
-          "description": "",
+          "title": "Palmetto Bay Marina",
+          "description": "Palmetto Bay is a full-service marina and retail center with 13,000 SF of retail, 140 wet slips and yacht center. Palmetto Bay is the largest marina on Hilton Head and makes a great front door for Daufuskie Island.",
           "link": "",
           "pin":"hidden",
           "fill": "",

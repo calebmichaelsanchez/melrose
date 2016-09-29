@@ -869,10 +869,13 @@ svg a {
 }
 g#landmarks-daufuskie .mapplic-clickable path,
 g#landmarks-daufuskie .mapplic-clickable polygon,
-g#landmarks-daufuskie .mapplic-clickable rect {
+g#landmarks-daufuskie .mapplic-clickable rect:not(.box) {
   -webkit-transition: 0.4s ease;
           transition: 0.4s ease;
 }
+g#landmarks-daufuskie .mapplic-clickable .box:hover ~ path,
+g#landmarks-daufuskie .mapplic-clickable .box:hover ~ polygon,
+g#landmarks-daufuskie .mapplic-clickable .box:hover ~ rect,
 g#landmarks-daufuskie .mapplic-clickable:hover path,
 g#landmarks-daufuskie .mapplic-clickable:hover polygon,
 g#landmarks-daufuskie .mapplic-clickable:hover rect,
