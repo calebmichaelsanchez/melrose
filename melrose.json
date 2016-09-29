@@ -3,14 +3,6 @@
   "mapheight":"703",
   "minimap":"false",
   "sidebar":"false",
-  "categories": [
-    {
-      "id": "resort",
-      "title": "Melrose Resort",
-      "color": "rgba(255, 255, 255, .8)",
-      "show": "false"
-    }
-  ],
   "levels":[
     {
       "id":"melrose",
@@ -21,8 +13,8 @@
         {
           "id":"the-inn",
           "title":"The Inn",
-          "description":"",
-          "category": "resort",
+          "description":"Existing 52 room inn with plans to expand an additional 36 branded bungalows on a 5 acre oceanfront parcel directly adjacent to the inn.<br /><br />The Inn sits on eight acres of sprawling oceanfront lawn and croquet fields commanding one of the most spectacular views you’re ever going to find.",
+
           "link": "",
           "pin":"hidden",
           "fill": "",
@@ -31,9 +23,9 @@
         },
         {
           "id":"tennis-villas",
-          "title":"Tennis Villas",
-          "description":"",
-          "category": "resort",
+          "title":"Tennis Bungalows",
+          "description":"36 Units. 7 Acres.",
+
           "link": "",
           "pin":"hidden",
           "fill": "",
@@ -42,9 +34,9 @@
         },
         {
           "id": "beach-cottages",
-          "title": "Beach Cottages",
-          "description": "",
-          "category": "resort",
+          "title": "Oceanside Village",
+          "description": "156 Single family oceanfront lots situated over 23 Acres.",
+
           "link": "",
           "pin":"hidden",
           "fill": "",
@@ -53,9 +45,9 @@
         },
         {
           "id":"residence-club",
-          "title":"Residence Club",
-          "description":"",
-          "category": "resort",
+          "title":"Vacation Club Cottages",
+          "description":"12 Oceanfront cottages<br /><br />Melrose features a charming collection of cottages nestled between the oceanfront and the Nicklaus Signature Golf Course.<br /><br />Designed in true Southern charm, these accommodations will offer luxurious residential touches such as vaulted ceilings, fireplaces, opulent bathrooms and verandas with stunning views.",
+
           "link": "",
           "pin":"hidden",
           "fill": "",
@@ -64,9 +56,9 @@
         },
         {
           "id":"beach-club",
-          "title":"Beach Club",
-          "description":"",
-          "category": "resort",
+          "title":"Beach Club Villas",
+          "description":"56 Units. 6 Acres.<br /><br />After an extensive renovation in 2014, the property features a wellness facility, two large oceanfront swimming pools, a kids pool, soaking tub, as well an Oceanside bar and restaurant.",
+
           "link": "",
           "pin":"hidden",
           "fill": "",
@@ -76,8 +68,8 @@
         {
           "id":"the-enclave",
           "title":"The Enclave",
-          "description":"Picturesque gated community featuring 58, 1 acre lots.",
-          "category": "resort",
+          "description":"58 Plantation Lots. Parcel Size is 58 Acres.",
+
           "link": "",
           "pin":"visible",
           "fill": "",
@@ -86,9 +78,9 @@
         },
         {
           "id":"future-development-residential",
-          "title":"Future Development Residential",
-          "description":"",
-          "category": "resort",
+          "title":"Future Development: Silverdew Residential",
+          "description":"TDB Units. 19 Acres",
+
           "link": "",
           "pin":"visible",
           "fill": "",
@@ -98,8 +90,8 @@
         {
           "id":"future-development-commercial",
           "title":"Future Development Commercial",
-          "description":"",
-          "category": "resort",
+          "description":"TBD Lots. 78 Acres.",
+
           "link": "",
           "pin":"visible",
           "fill": "",
@@ -109,8 +101,8 @@
         {
           "id":"future-development-open-space",
           "title":"Future Development Open Space",
-          "description":"",
-          "category": "resort",
+          "description":"TBD Lots. 20 Acres.",
+
           "link": "",
           "pin":"visible",
           "fill": "",
