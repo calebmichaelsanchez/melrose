@@ -881,7 +881,7 @@ g#landmarks-daufuskie .mapplic-clickable:hover polygon,
 g#landmarks-daufuskie .mapplic-clickable:hover rect,
 g#landmarks-daufuskie .mapplic-active path,
 g#landmarks-daufuskie .mapplic-active polygon,
-g#landmarks-daufuskie .mapplic-active rect {
+g#landmarks-daufuskie .mapplic-active rect:not(.box) {
   fill: green;
   stroke: white;
 }
