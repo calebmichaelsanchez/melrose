@@ -14,8 +14,7 @@
           "id":"the-inn",
           "title":"The Inn",
           "description":"Existing 52 room inn with plans to expand an additional 36 branded bungalows on a 5 acre oceanfront parcel directly adjacent to the inn.<br /><br />The Inn sits on eight acres of sprawling oceanfront lawn and croquet fields commanding one of the most spectacular views you’re ever going to find.",
-
-          "link": "",
+          "link": "/melrose-inn",
           "pin":"hidden",
           "fill": "",
           "x":"0.4905",
@@ -25,7 +24,6 @@
           "id":"tennis-villas",
           "title":"Tennis Bungalows",
           "description":"36 Units. 7 Acres.",
-
           "link": "",
           "pin":"hidden",
           "fill": "",
@@ -36,7 +34,6 @@
           "id": "beach-cottages",
           "title": "Oceanside Village",
           "description": "156 Single family oceanfront lots situated over 23 Acres.",
-
           "link": "",
           "pin":"hidden",
           "fill": "",
@@ -47,7 +44,6 @@
           "id":"residence-club",
           "title":"Vacation Club Cottages",
           "description":"12 Oceanfront cottages<br /><br />Melrose features a charming collection of cottages nestled between the oceanfront and the Nicklaus Signature Golf Course.<br /><br />Designed in true Southern charm, these accommodations will offer luxurious residential touches such as vaulted ceilings, fireplaces, opulent bathrooms and verandas with stunning views.",
-
           "link": "",
           "pin":"hidden",
           "fill": "",
@@ -58,7 +54,6 @@
           "id":"beach-club",
           "title":"Beach Club Villas",
           "description":"56 Units. 6 Acres.<br /><br />After an extensive renovation in 2014, the property features a wellness facility, two large oceanfront swimming pools, a kids pool, soaking tub, as well an Oceanside bar and restaurant.",
-
           "link": "",
           "pin":"hidden",
           "fill": "",
@@ -69,7 +64,6 @@
           "id":"the-enclave",
           "title":"The Enclave",
           "description":"58 Plantation Lots. Parcel Size is 58 Acres.",
-
           "link": "",
           "pin":"visible",
           "fill": "",
@@ -80,7 +74,6 @@
           "id":"future-development-residential",
           "title":"Future Development: Silverdew Residential",
           "description":"TDB Units. 19 Acres",
-
           "link": "",
           "pin":"visible",
           "fill": "",
@@ -91,7 +84,6 @@
           "id":"future-development-commercial",
           "title":"Future Development Commercial",
           "description":"TBD Lots. 78 Acres.",
-
           "link": "",
           "pin":"visible",
           "fill": "",
@@ -102,7 +94,6 @@
           "id":"future-development-open-space",
           "title":"Future Development Open Space",
           "description":"TBD Lots. 20 Acres.",
-
           "link": "",
           "pin":"visible",
           "fill": "",
